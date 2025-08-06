@@ -6,7 +6,7 @@ import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 const LeftBar = () => {
   const socIcons = ['AiFillInstagram', 'FaFacebookF', 'FaLinkedinIn', 'FaGithub'];
   return (
-    <div className='slide-up scroll-mt-24 hidden sm:flex sm:flex-col sm:items-center sm:gap-10 sm:fixed bottom-0'>
+    <div className='slide-up scroll-mt-24 hidden xl:flex xl:flex-col xl:items-center xl:gap-10 xl:fixed bottom-0'>
             <a href="https://www.instagram.com/_arenrobert/">
               <AiFillInstagram color='white' size='1.75rem'/>
             </a>

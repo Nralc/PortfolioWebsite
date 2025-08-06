@@ -6,7 +6,7 @@ import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 const Footer = () => {
   return (
     <div className='slide-up scroll-mt-24 pb-2 pt-20 sm:pt-30 flex flex-col items-center'>
-         <div className='flex gap-5 pb-5 sm:hidden'>
+         <div className='flex gap-5 pb-5 xl:hidden'>
             <AiFillInstagram color='white' size='1.4rem'/>
             <FaFacebookF color='white' size='1.4rem'/>
             <FaLinkedinIn color='white' size='1.4rem'/>

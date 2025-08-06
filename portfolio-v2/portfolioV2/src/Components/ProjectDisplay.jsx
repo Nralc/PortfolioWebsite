@@ -10,7 +10,9 @@ const ProjectDisplay = (props) => {
         <div className='text-left'>
             <h1 className='flex justify-between py-2'>
                 {item.title}
-                <BsBoxArrowUpRight />
+                <a href={item.link} className='hover:cursor-pointer'>
+                    <BsBoxArrowUpRight />
+                </a>
             </h1>
             <div className='flex flex-col gap-3'>
                 <p className='font-thin text-sky-100 text-justify'>
