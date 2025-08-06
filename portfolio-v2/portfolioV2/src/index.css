@@ -4,3 +4,17 @@
 @theme{
     --font-inst: "Instrument Sans", sans-serif;
 }
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(1rem);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.slide-up {
+  animation: slideUp 0.6s ease-out forwards;
+}

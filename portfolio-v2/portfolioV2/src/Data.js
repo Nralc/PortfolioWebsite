@@ -1,3 +1,10 @@
+export const socMeds = [
+    'https://www.instagram.com/_arenrobert/',
+    'https://www.facebook.com/clarencerobert.montano/',
+    'https://www.linkedin.com/in/clarence-robert-montaño-721207230',
+    'https://www.github.com'
+]
+
 export const skills =[
     {
         title:"Frontend",

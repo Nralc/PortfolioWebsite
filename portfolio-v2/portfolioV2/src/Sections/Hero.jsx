@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className='w-full py-20 sm:py-20 sm:px-10 text-[1.2rem] text-sky-300 sm:max-w-[60rem] sm:mx-auto'>
+    <div className='slide-up scroll-mt-24 w-full py-20 sm:py-20 sm:px-10 text-[1.2rem] text-sky-300 sm:max-w-[60rem] sm:mx-auto'>
         <h3 className='text-[1.6rem]'>Hi, I'm</h3>
         <h1 className='text-[3rem] font-bold text-white sm:text-[4rem]'>Clarence Montano.</h1>
         <h1 className='text-[2.1rem] font-bold pb-7 sm:text-[4rem]'>Crafting impact with code</h1>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Background = () => {
   return (
-    <div>
+    <div id='about'>
       <p className='text-sky-100 text-justify font-thin'>
         Hi! I’m a Computer Science graduate from Lyceum of the Philippines University – Batangas, majoring in Data Science. I’m passionate about building software and uncovering insights from data, blending both to create meaningful tech.<br/><br/>
         I’ve developed full-stack apps, including a productivity tool with Firebase and Java, and an admin dashboard for content moderation. During internships, I gained hands-on experience with web technologies like HTML, CSS, JS, PHP, and MySQL, while sharpening my debugging and collaboration skills.<br/><br/>

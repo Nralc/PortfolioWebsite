@@ -4,7 +4,7 @@ import ExperienceDisplay from '../Components/ExperienceDisplay'
 
 const Experience = () => {
   return (
-      <div className='text-[1.3rem] flex flex-col gap-10'>
+      <div id='experience' className='text-[1.3rem] flex flex-col gap-10'>
           <ExperienceDisplay data={workHistory} />                
       </div>
   )

@@ -18,6 +18,7 @@ const App = () => {
       <LeftBar />
       <Hero />
       <Sec />
+      <Contact />
       <RightBar />
       <Footer />
     </div>
