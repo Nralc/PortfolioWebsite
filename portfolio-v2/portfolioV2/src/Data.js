@@ -1,4 +1,5 @@
-export const socMeds = [
+export const logo = "/logo.png"
+export const pics = [
     'https://www.instagram.com/_arenrobert/',
     'https://www.facebook.com/clarencerobert.montano/',
     'https://www.linkedin.com/in/clarence-robert-montaño-721207230',
@@ -65,7 +66,7 @@ export const skills =[
 
 
 export const projects = [
-    {imgSrc:"src/assets/learnwise.png", 
+    {imgSrc:"assets/learnwise.png", 
     title:"Learnwise", 
     desc:"An Android application for learning efficiency featuring rich-text notes, Pomodoro timers, flashcards, quiz and review modes, and a discussion forum.",
     link:'https://play.google.com/store/apps/details?id=com.crm.learnwise',
@@ -78,7 +79,7 @@ export const projects = [
     'Chart JS', 
     'Medical Dictionary API']},
     
-    {imgSrc:"src/assets/harimuhan.png", 
+    {imgSrc:"assets/harimuhan.png", 
     title:"Harimuhan", 
     desc:"A full-stack coffee shop site with an online menu and custom queuing system",
     link:'',
@@ -89,7 +90,7 @@ export const projects = [
     'MySQL',
     'VS Code']},
 
-    {imgSrc:"src/assets/tutok.png", 
+    {imgSrc:"assets/tutok.png", 
     title:"Tutok: Customer Reservation System", 
     desc:"A reservation system prototype for a company to track customer preferences, schedule slots, and table availability.",
     link:'',
@@ -97,7 +98,7 @@ export const projects = [
     'Adobe Photoshop',
     'Excel']},
 
-    {imgSrc:"src/assets/ml.png", 
+    {imgSrc:"assets/ml.png", 
     title:"Handwritten Digit Recognition", 
     desc:"Created a CNN-based digit recognition model using Python and TensorFlow, trained on MNIST. Processed pre-recorded video of handwritten digits by extracting frames and predicting the final digit shown",
     link:'',

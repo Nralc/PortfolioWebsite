@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react'
-import { Menu, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react'
+
+
 
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,7 +31,7 @@ const Nav = () => {
   
   return (
     <div className='slide-up scroll-mt-24 fixed top-0 fixed top-0 left-0 w-full z-50 backdrop-blur-md bg-indigo-950/60 px-6 py-4 shadow-md flex justify-between items-center'>
-        <img className='w-8 h-8' src="src/assets/logo.png" alt="" />
+        <img className='w-8 h-8' src='assets/Logo.png' alt="" />
         <div>
             <button className='sm:hidden' onClick={() => setIsOpen(!isOpen)}>
                 {isOpen ? <X size="2.5rem" color="#6aa7d9" /> : <Menu color="#6aa7d9" size="2.5rem" />}
