@@ -10,6 +10,7 @@ import LeftBar from './Sections/LeftBar'
 import Contact from './Sections/Contact'
 import Footer from './Sections/Footer'
 import Sec from './Sec'
+import Certs from './Sections/Certs'
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       <LeftBar />
       <Hero />
       <Sec />
+      <Certs />
       <Contact />
       <RightBar />
       <Footer />

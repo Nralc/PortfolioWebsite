@@ -16,7 +16,7 @@ const LeftBar = () => {
             <a href="https://www.linkedin.com/in/clarence-robert-montaño-721207230">
               <FaLinkedinIn color='white' size='1.75rem'/>
             </a>
-            <a href="https://www.github.com">
+            <a href="https://github.com/Nralc">
               <FaGithub color='white' size='1.75rem'/>
             </a>
             <div className='border-l-2 border-white h-30'></div>
